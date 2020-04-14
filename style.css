@@ -1,0 +1,51 @@
+body{
+  background-color: grey;
+}
+
+.background{
+  height: 100vh;
+  width: auto;
+  background-position: center;
+  position: relative;
+  transition: all 3s ease-in-out;
+  overflow: hidden;
+}
+
+.title{
+  display: relative;
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  font-size: 4vw;
+  line-height: 3vh;
+}
+
+#grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 2vw;
+}
+
+.images{
+  height: 50vh;
+  width: auto;
+  /* background-color: black; */
+  padding: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 3vh;
+  line-height: 0.5;
+  background-color: black;
+}
+
+.content p{
+  font-family: 'Kanit', sans-serif;
+  color: white;
+  padding-left: 5vw;
+}
